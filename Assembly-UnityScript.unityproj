@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{9157C67D-4484-F5BD-E478-DB053012F39E}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_GAMECENTER;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_1_5;UNITY_4_1;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\0000 ats V2 package\ats vertexLitShader Package\Script\setupVertexLitShaderV2.js" />
+     <Compile Include="Assets\ats Package\Demoscene\Controller\flyControllerScript.js" />
+     <Compile Include="Assets\carController.js" />
+     <None Include="Assets\0000 ats V2 package\readme_treeBarkShader.txt" />
+     <None Include="Assets\ats Package\Demoscene\Terrain\UnityTerrainBump\TerrainReplacement.shader" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\Ressources\ShadersBuiltin\Camera-DepthTexture.shader" />
+     <None Include="Assets\0000 ats V2 package\readme_grassShader.txt" />
+     <None Include="Assets\0000 ats V2 package\atsV2 billboardShader package\TreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\0000 ats V2 package\atsV2 billboardShader package\TreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\SH-Tree Bark rendertex.shader" />
+     <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\BillboardTree.shader" />
+     <None Include="Assets\0000 ats V2 package\ats pathShader Package\Shader\ats Road Path bumped diffuse alphatest.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\BillboardTreeSnow.shader" />
+     <None Include="Assets\ats Package\readme_vertexLitShader.txt" />
+     <None Include="Assets\0000 ats V2 package\ats vertexLitShader Package\Shader\atsv2 vertexlit.shader" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\Includes\atsWavingGrass vertexAlpha.cginc" />
+     <None Include="Assets\0000 ats V2 package\atsV2 grassShader Package\atsV2WavingGrass.shader" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorBarkRendertexSnow.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\Tree.cginc" />
+     <None Include="Assets\0000 ats V2 package\readme_billboardShader.txt" />
+     <None Include="Assets\ats Package\ats vertexLitShader Package\Shader\ats VertexLit.shader" />
+     <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\SH_Vertex.cginc" />
+     <None Include="Assets\0000 ats V2 package\atsV2 billboardShader package\Tree.cginc" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\atsV3WavingGrassBillboardSnow.shader" />
+     <None Include="Assets\0000 ats V2 package\readme_terrainBumpShader.txt" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\atsV3WavingGrassSnow vertexAlpha.shader" />
+     <None Include="Assets\0000 ats V2 package\atsV2 UnityTerrainBump Package\TerrainReplacementAtsV2.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorLeavesOptimizedSnow.shader" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\Tree.cginc" />
+     <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\ats SH-Tree Bark.shader" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeSnow.cginc" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\snowShaderBumpedDiffuse.shader" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\Ressources\ShadersBuiltin\Camera-DepthNormalTexture.shader" />
+     <None Include="Assets\ats Package\readme_treeBarkShader.txt" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\TerrainReplacementAtsV3Snow.shader" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorLeavesRendertexSnow.shader" />
+     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorBarkOptimizedSnow.shader" />
+     <None Include="Assets\0000 ats V2 package\readme_vertexLitShader.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{C74549B7-F8C4-EB7E-71D0-9916926EEB29}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{62F10C21-0C77-8A7D-E4D0-9D4EAFF3F953}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
